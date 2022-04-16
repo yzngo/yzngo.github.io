@@ -16,14 +16,14 @@ lang: cn
 prefer_datetime_locale:
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
-timezone: east China - Beijing, Guangdong, Shanghai, etc.
+timezone: 
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
 title: Yzngo                        # the main title
 
-tagline: A text-focused Jekyll theme   # it will display as the sub-title
+tagline: Unity3D Developer   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
   A blog about Unity3d, Game Engine, and Graphics develop.
