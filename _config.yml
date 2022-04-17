@@ -83,7 +83,7 @@ theme_mode:  # [dark|light]
 img_cdn: 'https://cdn.jsdelivr.net/gh/yzngo/picture/img'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/202204170047559.jpeg'
+avatar: '/202204171116969.jpeg'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
