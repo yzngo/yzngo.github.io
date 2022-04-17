@@ -1,5 +1,5 @@
 ---
-title: 使用Jekyll搭建GithubPages博客
+title: 使用Jekyll搭建GithubPages
 date: 2019-04-16 14:10:00 +0800
 categories: [Tools, Blog]
 tags: [jekyll,blog]
