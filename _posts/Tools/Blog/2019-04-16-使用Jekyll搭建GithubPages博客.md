@@ -9,11 +9,11 @@ tags: [jekyll,blog]
 
 ## 资源网站
 
-1. [http://jekyllthemes.org/](Jekyll官方主题站)
+1. [Jekyll官方主题站](http://jekyllthemes.org/)
 
 
 
-## 安装Jekyll Docs
+## 安装Jekyll
 
 跟随[Jekyll Docs](https://jekyllrb.com/docs/installation/)安装  `Ruby, RubyGems, Jekyll, Bundler`
 
@@ -31,7 +31,7 @@ tags: [jekyll,blog]
 
 ## 创建Github Pages仓库
 
-经过对比，最后选择了 [Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/ ) 主题，下面的步骤是使用此主题的创建步骤，其他的也大同小异。
+下面的步骤基于主题 [Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/ ) 。
 
 1. 登录Github，通过   [**Chirpy Starter**](https://github.com/cotes2020/chirpy-starter/generate) 创建新的repo, 命名为`[username].github.io`
 
