@@ -2,7 +2,7 @@
 title: ScriptObject
 date: 2019-04-24 14:10:00 +0800
 categories: [Unity3D, Script]
-tags: [scriptobject]
+tags: [unity3d]
 ---
 
 

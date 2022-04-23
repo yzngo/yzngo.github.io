@@ -20,6 +20,8 @@ Mermaid 是一个基于 Javascript 的图表绘制工具，通过解析类 Markd
 
 [Flowchart](https://mermaid-js.github.io/mermaid/#/flowchart)
 
+
+
 ````markdown
 ```mermaid
 	flowchart LR
@@ -36,6 +38,19 @@ A[Hard] -->|Text| B(Round)
 B --> C{Decision}
 C -->|One| D[Result 1]
 C -->|Two| E[Result 2]
+```
+
+##### 特殊字符
+
+```
+%% 使用 ""
+flowchart LR
+    id1["This is the (text) in the box"]
+```
+
+```mermaid
+flowchart LR
+    id1["This is the (text) in the box"]
 ```
 
 
