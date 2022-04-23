@@ -1,7 +1,7 @@
 ---
-title: 使用Mermaid画图
+title: Markdown-使用Mermaid画图
 date: 2019-04-23 14:10:00 +0800
-categories: [Tool, Blog]
+categories: [Tool, Editor]
 tags: [markdown,blog]
 mermaid: true
 math: true

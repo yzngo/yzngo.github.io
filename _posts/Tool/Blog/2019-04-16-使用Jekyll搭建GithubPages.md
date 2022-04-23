@@ -2,7 +2,7 @@
 title: 使用Jekyll搭建GithubPages
 date: 2019-04-16 14:10:00 +0800
 categories: [Tool, Blog]
-tags: [jekyll,blog]
+tags: [blog]
 ---
 
 记录Github Pages搭建流程，以备以后查阅。
