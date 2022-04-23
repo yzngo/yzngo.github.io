@@ -1,7 +1,7 @@
 ---
 title: 使用Jekyll搭建GithubPages
 date: 2019-04-16 14:10:00 +0800
-categories: [Tools, Blog]
+categories: [Tool, Blog]
 tags: [jekyll,blog]
 ---
 
@@ -20,11 +20,9 @@ tags: [jekyll,blog]
 - 具体步骤简单记录如下
 
     1. 安装  [RubyInstaller](https://rubyinstaller.org/)  -> [Ruby+Devkit 3.1.1-1 (x64)](https://github.com/oneclick/rubyinstaller2/releases/download/RubyInstaller-3.1.1-1/rubyinstaller-devkit-3.1.1-1-x64.exe) 
-
     2. 在安装向导的最后一步， 执行 `ridk install`
-
-    3. 安装完成后打开一个新的终端，运行 `gem install jekyll bundler`
-
+    3. 在自动打开的CMD窗口中，`RubyInstaller2` 安装选项选择 `3` 
+    4. 安装完成后打开一个新的终端，运行 `gem install jekyll bundler`
     4. 检查 Jekyll 是否安装成功 `jekyll -v`
 
 
