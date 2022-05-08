@@ -11,7 +11,7 @@ tags: [cpp]
 
 ## vector
 
-[对比C#容器 - List]({%link _posts/Language/CSharp/2019-06-01-CSharp泛型类-List.md %})
+[对比C#容器 - List]({%link _posts/Language/CSharp/2019-09-01-CSharp泛型类-List.md %})
 
  
 
