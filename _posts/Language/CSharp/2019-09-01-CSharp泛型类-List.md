@@ -3,6 +3,8 @@ title: C#泛型类 - List
 date: 2019-09-01 14:10:00 +0800
 categories: [Language, CSharp]
 tags: [csharp]
+mermaid: true
+math: true
 
 ---
 
