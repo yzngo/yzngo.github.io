@@ -95,20 +95,27 @@ for (decltype(s1.size()) index = 0; index != s1.size() && !isspace(s1[index]); +
 }
 
 // 查找
-int idx = s1.find(s);  // 判断字符串中是否有某个元素。
-						// 若不存在则 idx == string::epos
-
-
+// 从前往后查找
+int index = s1.find(s);
+// 从位置pos开始往后查找（包括pos）
+int index = s1.find(s, pos);
+// 从后往前查找
+int index = s1.rfind(s);
+// 从位置pos开始往前查找（包括pos）
+int index = s1.rfind(s, pos);
+// 若不存在则 i == string::epos
 
 // 求子串
 str.substr(2,3); // 起始序号，长度
-
 // 删除
-str.erase(6, 4); // 位置pos=6处开始，删除4个字符。
-str.erase(10); // 从位置pos=10处开始删除，直到结尾。  
+// 从位置pos=10处开始删除，直到结尾。
+str.erase(pos); 
+// 位置pos=6处开始，删除count=4个字符。
+str.erase(pos, count); 
+  
 
-// 反转
-reserve(str.begin(), str.end());  //字符串反转 
+//字符串反转
+reserve(str.begin(), str.end());  
 
 ```
 
