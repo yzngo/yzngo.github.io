@@ -9,12 +9,6 @@ tags: [cpp]
 
 
 
-## string
-
-1.  `string` 表示可变长的字符序列。
-
-    
-
 ## string和char数组
 
 1. string常用
@@ -23,7 +17,7 @@ tags: [cpp]
 2. char数组 - 只有需要运行效率特别高时才需要用char数组
     优点：效率高
 
-
+<br>
 
 ## 字符串定义和初始化
 
@@ -45,7 +39,7 @@ const char* vertexShaderSource = R"(
     )";
 ```
 
-
+<br>
 
 ## 字符操作
 
@@ -71,7 +65,7 @@ int main()
 }
 ```
 
-
+<br>
 
 ## 字符串处理
 
@@ -94,7 +88,21 @@ for (decltype(s1.size()) index = 0; index != s1.size() && !isspace(s1[index]); +
     s1[index] = toupper(s1[i])
 }
 
-// 查找
+// 求子串
+str.substr(2,3); // 起始序号，长度
+
+//字符串反转
+reserve(str.begin(), str.end());  
+
+```
+
+<br>
+
+## 查找 - find
+
+1. 字符串查找的位置以第一个字符为准。看下面 rfind 的示例。
+
+```c++
 // 从前往后查找
 int index = s1.find(s);
 // 从位置pos开始往后查找（包括pos）
@@ -105,21 +113,56 @@ int index = s1.rfind(s);
 int index = s1.rfind(s, pos);
 // 若不存在则 i == string::epos
 
-// 求子串
-str.substr(2,3); // 起始序号，长度
-// 删除
+// rfind查找示例
+string str = "01234567890";
+index = str.rfing("3456", 7);
+// 依次对比 7890 -> 6789 -> 5678 -> 4567 -> 3456
+// 结果返回 3
+
+string str = "1111111111";
+index = str.rfing("1111", 7);
+// 结果返回 6
+```
+
+<br>
+
+## 替换 - replace
+
+1.  `string` 中的 `replace`
+
+```c++
+string str = "abcdefg";
+// 从 1 号位置起 3 个字符替换为 1111
+str.replace(1, 3, "1111");
+cout << str << endl;	// a1111efg
+```
+
+2. `algorithm` 中的 `replace`
+
+```c++
+#include <algorithm>
+// 将 s 串中的字符 a 替换成 
+replace(s.begin(), s.end(), 'a', 'b');
+```
+
+
+
+
+
+
+
+<br>
+
+## 删除- erase
+
+```c++
 // 从位置pos=10处开始删除，直到结尾。
 str.erase(pos); 
 // 位置pos=6处开始，删除count=4个字符。
 str.erase(pos, count); 
-  
-
-//字符串反转
-reserve(str.begin(), str.end());  
-
 ```
 
-
+<br>
 
 ## C风格字符串相关
 
@@ -143,5 +186,25 @@ to_string()  // 数字转换成字符串
 atoi(c_str)  // 字符串转换为数字
     
 
+```
+
+<br>
+
+## Demo - 拆分字符串
+
+1. 把字符串 `"Mr John Smith    ", 13` 拆分成前面的字符串和后面的数字。
+
+```c++
+string str1;
+getline(cin, str1);
+// 抹去前面的"
+str1 = str1.erase(0,1);
+// 查找 [", ] 的位置
+int index = str1.rfind("\", ");
+// 尾数字转换成数字
+int length = atoi(str1.substr(index + 3).c_str());
+// 删掉结尾的 [", N]
+str1 = str1.erase(index);
+cout << str1 << " " << length << endl;
 ```
 
