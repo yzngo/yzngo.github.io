@@ -14,8 +14,6 @@ math: true
 
 ## List
 
-[对比CPP容器 - Vector]({%link _posts/Language/CPP/2019-06-07-CPP-容器-vector.md %})
-
 [List源码](https://referencesource.microsoft.com/#mscorlib/system/collections/generic/list.cs)
 
 ## 使用注意
