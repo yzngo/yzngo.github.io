@@ -9,12 +9,6 @@ tags: [cpp]
 
 
 
-## vector
-
-[对比C#容器 - List]({%link _posts/Language/CSharp/2019-09-01-CSharp泛型类-List.md %})
-
- 
-
 ## vector定义和初始化
 
 1. 初始化时使用**圆括号 ()**代表调用构造函数构造 vector 对象。
@@ -38,7 +32,7 @@ int arr[] = {0, 1, 2, 3, 4, 5};
 vector<int> v7(begin(arr), end(arr));
 ```
 
-### 操作
+## 操作
 
 ```c++
 vector<int> v;
