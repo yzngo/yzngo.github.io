@@ -1,9 +1,9 @@
 ---
 title: C#泛型类 - Dictionary
 date: 2019-09-02 14:10:00 +0800
-categories: [Language, CSharp]
+categories: [Language, C#]
 math: true
-tags: [csharp]
+tags: [c#]
 mermaid: true
 math: true
 
