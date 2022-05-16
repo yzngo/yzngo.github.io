@@ -3,7 +3,6 @@ title: Markdown-使用LaTeX输入公式
 date: 2019-04-23 14:10:00 +0800
 categories: [Tool, Editor]
 tags: [markdown,blog]
-mermaid: true
 math: true
 
 ---

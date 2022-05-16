@@ -3,8 +3,7 @@ title: C# - Linq
 date: 2021-01-07 14:10:00 +0800
 categories: [Language, C#]
 tags: [c#]
-mermaid: true
-math: true
+
 ---
 
 

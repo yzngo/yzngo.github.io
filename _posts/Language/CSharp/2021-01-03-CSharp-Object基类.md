@@ -3,8 +3,7 @@ title: C# - Object
 date: 2021-01-03 14:10:00 +0800
 categories: [Language, C#]
 tags: [c#]
-mermaid: true
-math: true
+
 ---
 
 

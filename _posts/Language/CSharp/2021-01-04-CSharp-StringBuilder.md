@@ -3,8 +3,7 @@ title: C# - StringBuilder
 date: 2021-01-04 14:10:00 +0800
 categories: [Language, C#]
 tags: [c#]
-mermaid: true
-math: true
+
 ---
 
 
