@@ -1,6 +1,6 @@
 ---
 title: C#泛型类 - List
-date: 2019-09-01 14:10:00 +0800
+date: 2021-01-01 14:10:00 +0800
 categories: [Language, C#]
 tags: [c#]
 mermaid: true

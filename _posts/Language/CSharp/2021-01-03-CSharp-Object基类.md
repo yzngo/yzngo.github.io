@@ -1,6 +1,6 @@
 ---
 title: C# - Object
-date: 2019-09-03 14:10:00 +0800
+date: 2021-01-03 14:10:00 +0800
 categories: [Language, C#]
 tags: [c#]
 mermaid: true
