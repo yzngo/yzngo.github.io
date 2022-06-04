@@ -1,6 +1,6 @@
 ---
-title: ScriptObject
-date: 2019-04-24 14:10:00 +0800
+title: Unity - ScriptObject
+date: 2021-04-01 14:10:00 +0800
 categories: [Unity3D, Script]
 tags: [unity3d]
 ---

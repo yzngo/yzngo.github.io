@@ -214,3 +214,5 @@ pie
 ## Reference
 
 1. [mermaid-js](https://github.com/mermaid-js/mermaid/blob/develop/README.md)
+1. [mermaid-js-CN](https://github.com/mermaid-js/mermaid/blob/develop/README.zh-CN.md)
+1. [mermaid-js-Doc](https://mermaid-js.github.io/mermaid/#/)
