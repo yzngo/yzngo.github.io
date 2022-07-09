@@ -27,7 +27,7 @@ tags: [blog]
 
 
 
-## 创建Github Pages仓库
+## 创建/更新Github Pages
 
 下面的步骤基于主题 [Chirpy](http://jekyllthemes.org/themes/jekyll-theme-chirpy/ ) 。
 
@@ -35,40 +35,47 @@ tags: [blog]
 
 2. 把此repo Push到本地。
 
-3. 预览
+    
 
-    - 在仓库根目录运行
-        - `Bundle`
-        -  `bundle exec jekyll s`
-    - 浏览器打开 _<http://127.0.0.1:4000>_
+#### 预览
 
-4. 部署**（仅第一次）**
+- 在仓库根目录运行
+    - `Bundle`
+    -  `bundle exec jekyll s`
+    
+- 浏览器打开 _<http://127.0.0.1:4000>_
 
-    - 检查 `_config.yml`中的 url 是否配置成  `[username].github.io`
+    
 
-    - 确保 .github/workflows/pages-deploy.yml 文件存在
+#### 部署**（仅第一次）**
 
-        - `on.push.branches` 应该和默认分支相同
+- 检查 `_config.yml`中的 url 是否配置成  `[username].github.io`
 
-    - 确保 tools/deploy.sh 存在
+- 确保 .github/workflows/pages-deploy.yml 文件存在
 
-    - 更新lock file
+    - 其中 `on.push.branches` 应该和默认分支相同
 
-        ```console
-        bundle lock --add-platform x86_64-linux
-        ```
+- 确保 tools/deploy.sh 存在
 
-    - Push and commit
+- 更新lock file
 
-        - 等待 GitHub Actions 运行完
-        - 会增加一个新的分支 `gh-pages`
+    ```console
+    bundle lock --add-platform x86_64-linux
+    ```
 
-5. 发布
+- Push and commit
 
-    - repo -> Settings -> Pages 
+    - 等待 GitHub Actions 运行完
+    - 会增加一个新的分支 `gh-pages`
+    
+    
 
-        - 修改Source为：`gh-pages   /(root) `
-        - 保存
+#### 发布
+
+- GitHub仓库设置页面： repo -> Settings -> Pages 
+
+    - 修改Source为：`gh-pages   /(root) `
+    - 保存
 
 
 
